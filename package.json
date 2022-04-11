@@ -9,10 +9,12 @@
     "url": "https://github.com/ktfth/permutation.git"
   },
   "scripts": {
-    "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
-    "build-debug": "npm run build --",
-    "build-release": "npm run build -- --release",
-    "install": "npm run build-release",
+    "build:native": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
+    "build-debug:native": "npm run build --",
+    "build-release:native": "npm run build -- --release",
+    "install:native": "npm run build-release",
+    "install": "node-pre-gyp install --fallback-to-build=false || neon build",
+    "build": "neon build",
     "test": "cargo test"
   },
   "author": "Kaique da Silva <kaeyosthaeron@gmail.com>",
