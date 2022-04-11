@@ -4,6 +4,7 @@
 
 ```sh
 [sudo] npm i xpermutation
+```
 
 **permutation:** Permutation
 
