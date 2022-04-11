@@ -3,7 +3,7 @@
 ## Usage
 
 ```sh
-[sudo] npm i xpermutation
+[sudo] npm i zpermutation
 ```
 
 **permutation:** Permutation
