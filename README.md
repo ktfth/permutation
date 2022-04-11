@@ -1,5 +1,10 @@
 # permutation
 
+## Usage
+
+```sh
+[sudo] npm i xpermutation
+
 **permutation:** Permutation
 
 This project was bootstrapped by [create-neon](https://www.npmjs.com/package/create-neon).
@@ -33,8 +38,11 @@ After building permutation, you can explore its exports at the Node REPL:
 ```sh
 $ npm install
 $ node
-> require('.').hello()
-"hello node"
+> require('.').pure(2, 0, 10)
+...
+> require('.').lowerAlphabet(2)
+...
+> require('.').upperAlphabet(2)
 ```
 
 ## Available Scripts

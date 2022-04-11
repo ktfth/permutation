@@ -1,8 +1,13 @@
 {
-  "name": "permutation",
+  "name": "xpermutation",
   "version": "0.1.0",
   "description": "Permutation",
   "main": "index.node",
+  "homepage": "https://github.com/ktfth/permutation#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ktfth/permutation.git"
+  },
   "scripts": {
     "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
     "build-debug": "npm run build --",
@@ -10,7 +15,7 @@
     "install": "npm run build-release",
     "test": "cargo test"
   },
-  "author": "",
+  "author": "Kaique da Silva <kaeyosthaeron@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "cargo-cp-artifact": "^0.1"
