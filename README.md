@@ -1,11 +1,5 @@
 # permutation
 
-## Usage
-
-```sh
-[sudo] npm i zpermutation
-```
-
 **permutation:** Permutation
 
 This project was bootstrapped by [create-neon](https://www.npmjs.com/package/create-neon).
